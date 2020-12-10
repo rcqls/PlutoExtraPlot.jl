@@ -1,0 +1,9 @@
+name = "PlutoExtraPlot"
+uuid = "e377c908-24ab-4bf3-9521-623b3fd394f9"
+authors = ["rcqls <rdrouilh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
