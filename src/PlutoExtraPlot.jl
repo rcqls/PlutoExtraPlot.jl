@@ -10,6 +10,7 @@ macro Rplot_str(code)
 		"""
 		@R_str($code)
 		R"""
+		invisible(print(".Last.value"))
 		dev.off()
 		"""
 		res=LocalResource("./rplot.png")
