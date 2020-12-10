@@ -22,6 +22,8 @@ end
 macro pyplot_str(code)
 	return quote
 		py"""
+		import matplotlib
+		matplotlib.use('Agg')
 		import matplotlib.pyplot as plt
 		plt.figure()
 		"""
